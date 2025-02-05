@@ -245,8 +245,8 @@
   <?php include("./destinations.php"); ?>
 </div>
 
-    <div id=experiences class="bg-[#222222] text-white md:h-full px-6 sm:px-12 lora-">
-  <div class="mx-auto flex flex-col lg:flex-row items-center gap-8 md:py-0 py-8">
+    <div id=experiences class="bg-[#222222] text-white px-6 sm:px-12 lora-">
+  <div class="flex flex-col lg:flex-row items-center gap-8 md:py-0 py-8">
     <!-- Text Section -->
 <div class="w-full lg:w-1/2 text-center lg:text-left">
   <h2 class="text-3xl md:text-5xl font-bold mb-4">KEY EXPERIENCES</h2>
@@ -262,12 +262,12 @@
 
 
     <!-- Image Section -->
-    <div class="lg:w-1/3 flex flex-col md:inline hidden h-full ">
+    <div class="w-1/3 flex flex-col md:inline hidden h-full ">
       <div class="relative">
         <img
           src="./assetes/images/bg6.png"
           alt="Experience 1"
-          class="w-full h-[620px] object-cover shadow-lg ml-64 "
+          class="w-auto h-[620px] object-cover shadow-lg ml-64 "
           3
         />
         <img
