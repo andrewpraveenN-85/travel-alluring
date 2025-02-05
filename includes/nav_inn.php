@@ -2,7 +2,7 @@
 
 <nav class="flex items-center justify-between px-8 pt-1 bg-black text-white">
 <div class="flex items-center">
-    <a href="./index.php" class="flex items-center">
+    <a href="./index.php" class="flex items-center py-4">
         <img src="./assetes/images/Vertical-transparent2.png" alt="Alluring Tours" class="h-10 lg:h-20">
     </a>
 </div>

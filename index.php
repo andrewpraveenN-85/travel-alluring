@@ -1,16 +1,13 @@
 <?php include("./includes/header.php"); ?>
 
   <!-- Full-screen background section -->
-  <div class="relative bg-cover bg-center h-screen">
-  <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="./assetes/images/43.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+  <div class="relative bg-cover bg-center h-screen" style="background-image: url('./assetes/images/bg1.png');">
+  
     <nav class="w-full py-4 flex justify-between items-center absolute z-10 px-4 lg:px-16">
         <!-- Logo -->
         <div class="flex items-center">
     <a href="./index.php" class="flex items-center">
-        <img src="./assetes/images/Vertical-transparent2.png" alt="Alluring Tours" class="h-12 lg:h-20">
+        <img src="./assetes/images/Vertical-transparent2.png" alt="Alluring Tours" class="h-16 md:h-24">
     </a>
 </div>
 
@@ -63,7 +60,7 @@
     <!-- Centered content -->
     <div class="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
         <!-- Title -->
-        <div class="relative mb-4 md:pr-96 md:mb-0">
+        <div class="relative mb-4 md:pr-96 md:mb-0 mt-16">
             <h1 class="text-5xl md:text-[160px] font-extrabold uppercase text-stroke lora-">
                 Ayubowan
             </h1>
@@ -86,6 +83,19 @@
                 </p>
             </div>
         </div>
+        <div class="w-full pt-4 flex justify-center text-center lora- mt-8">
+        <a href="https://www.tripadvisor.com/Attraction_Review-g1500185-d13329321-Reviews-Alluring_Tours-Katunayake_Negombo_Western_Province.html" class="inline-block">
+  <button class="bg-[#B9C37B6B] text-black text-xl border-2 border-[#B9C37B] font-bold italic md:px-20 px-6 py-2 rounded-full hover:bg-[#B9C37B] transition mx-auto lg:mx-0">
+    <div class="w-full flex space-x-4">
+    <p> Check Us on TripAdvisor</p>
+    <div class="w-8 h-8 bg-white flex justify-center items-center rounded-full">
+    <img src="./assetes/images/tripadvisor.png" alt="Alluring Tours" class="w-6 h-6">
+    </div>
+    </div>
+ 
+  </button>
+</a>
+
     </div>
 </div>
   
@@ -95,7 +105,7 @@
   <p class="text-lg md:text-xl lora- italic font-bold text-[#B9C37B]">Choose the perfect package for your journey.</p>
 
   <!-- Packages Grid -->
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 bg-[#1E1E1E] p-6 md:p-8 lora-">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 bg-[#1E1E1E] p-8 md:p-8 lora-">
     
     <!-- Card 1 -->
     <div class="relative border border-[#B9C37B] p-4 md:p-6 hover:shadow-lg hover:scale-105 transition transform w-full h-48 md:h-64">
@@ -103,8 +113,8 @@
         <h3 class="text-6xl md:text-9xl font-extrabold text-[#B9C37B]">01</h3>
       </div>
       <div class="w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center z-20 px-4 md:px-8">
-        <div class="w-full bg-[#222222] pb-4 md:pb-8">
-          <p class="text-lg md:text-xl text-[#B9C37B] pt-2 md:pt-4">Travel Only</p>
+        <div class="w-full bg-[#222222] md:h-auto h-[80px] pb-4 md:pb-8">
+          <p class="text-lg md:text-xl text-[#B9C37B] pt-8 md:pt-4">Travel Only</p>
         </div>
       </div>
     </div>
@@ -116,7 +126,7 @@
       </div>
       <div class="w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center z-20 px-4 md:px-8">
         <div class="w-full bg-[#222222] pb-4 md:pb-8">
-          <div class="w-full flex flex-col -mb-8 md:-mb-8 text-lg md:text-xl text-[#B9C37B]">
+          <div class="w-full md:h-auto h-[100px] flex flex-col -mb-8 md:-mb-8 text-lg md:text-xl text-[#B9C37B]">
             <p>Travel</p>
             <p>+</p>
             <p>Accommodation</p>
@@ -132,7 +142,7 @@
       </div>
       <div class="w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center z-20 px-4 md:px-8">
         <div class="w-full bg-[#222222] pb-4 md:pb-8">
-          <div class="w-full flex flex-col -mb-8 md:-mb-8 text-lg md:text-xl text-[#B9C37B]">
+          <div class="w-full flex flex-col md:h-auto h-[100px] -mb-8 md:-mb-8 text-lg md:text-xl text-[#B9C37B]">
             <p>Travel</p>
             <p>+</p>
             <p>Activities</p>
@@ -147,8 +157,8 @@
         <h3 class="text-6xl md:text-9xl font-extrabold text-[#B9C37B]">04</h3>
       </div>
       <div class="w-full absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center z-20 px-4 md:px-8">
-        <div class="w-full bg-[#222222] pb-4 md:pb-8">
-          <p class="text-lg md:text-xl text-[#B9C37B] pt-2 md:pt-4">All Inclusive</p>
+        <div class="w-full bg-[#222222] md:h-auto h-[80px] pb-4 md:pb-8">
+          <p class="text-lg md:text-xl text-[#B9C37B] pt-8 md:pt-4">All Inclusive</p>
         </div>
       </div>
     </div>
@@ -218,7 +228,7 @@
         </p>
         <div class="w-full pt-4 text-center lg:text-left">
         <a href="https://www.tripadvisor.com/Attraction_Review-g1500185-d13329321-Reviews-Alluring_Tours-Katunayake_Negombo_Western_Province.html" class="inline-block">
-  <button class="bg-[#D9D9D92E] text-black text-lg border-2 border-black font-semibold px-10 py-2 rounded-full hover:bg-lime-600 transition mx-auto lg:mx-0">
+  <button class="bg-[#D9D9D92E] text-black text-lg border-2 border-black font-semibold px-10 py-2 rounded-full hover:bg-[#B9C37B] transition mx-auto lg:mx-0">
     Get More Info
   </button>
 </a>
@@ -235,8 +245,8 @@
   <?php include("./destinations.php"); ?>
 </div>
 
-    <div id=experiences class="bg-[#222222] text-white h-full px-6 sm:px-12 lora-">
-  <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8 md:py-0 py-8">
+    <div id=experiences class="bg-[#222222] text-white md:h-full px-6 sm:px-12 lora-">
+  <div class="mx-auto flex flex-col lg:flex-row items-center gap-8 md:py-0 py-8">
     <!-- Text Section -->
 <div class="w-full lg:w-1/2 text-center lg:text-left">
   <h2 class="text-3xl md:text-5xl font-bold mb-4">KEY EXPERIENCES</h2>
@@ -269,8 +279,8 @@
     </div>
   </div>
 </div>
-<div class="relative bg-[#5A6857] bg-center">
-    <div class="relative z-10 container mx-auto px-6 py-16 text-white text-center">
+<div class="w-full relative bg-[#5A6857] bg-center">
+    <div class="relative z-10 mx-auto px-6 py-16 text-white text-center">
         <!-- Section Title -->
         <h2 class="text-3xl md:text-5xl font-bold text-black mb-4 animate_animated animate_fadeIn" style="font-family: 'Lora', serif;">
             WHY CHOOSE US
@@ -331,7 +341,7 @@
     </div>
 </div>
 
-<div class="container bg-black  mx-auto px-6 lg:px-16 flex flex-col lg:flex-row items-center h-auto lg:h-screen w-auto gap-8" style="font-family: 'Lora', serif;">
+<div class="w-full bg-black px-6 lg:px-16 flex flex-col lg:flex-row items-center h-auto lg:h-screen gap-8" style="font-family: 'Lora', serif;">
     <div class="w-full lg:w-1/2 mb-12 lg:mb-44 text-center lg:text-left mt-8">
         <h1 class="text-3xl lg:text-5xl text-white font-bold" style="font-family: 'Lora', serif;">About Sri Lanka</h1>
         <h2 class="text-lg lg:text-2xl mt-4 text-gray-300" style="font-family: 'Lora', serif;">The Island of Endless Wonders and Timeless Beauty</h2>

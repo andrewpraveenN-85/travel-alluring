@@ -1,6 +1,6 @@
 
-<footer class="text-white ">
-    <div class="container mx-auto px-6 py-10 lora- bg-cover" style="background-image:url('assetes/images/bg9.png'); background-blend-mode: overlay; background-color: rgba(0, 0, 0, 0.5);">
+<footer class="w-full text-white ">
+    <div class="w-full  mx-auto px-6 py-10 lora- bg-cover" style="background-image:url('assetes/images/bg9.png'); background-blend-mode: overlay; background-color: rgba(0, 0, 0, 0.5);">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-8">
             <!-- Left Section -->
             <div class="w-full flex flex-col md:space-y-0 space-y-4">
@@ -11,13 +11,18 @@
                 
                 <div class="flex items-center rounded-full space-x-4">
     <a href="#" target="_blank" rel="noopener noreferrer">
-        <p><i class="ri-facebook-circle-fill"></i></p>
+        <p class="text-2xl"><i class="ri-facebook-circle-fill"></i></p>
     </a>
     <a href="https://www.instagram.com/srilanka_with_mahesh_87?igsh=MWxyc3V2NnJ5bGZ4Zg==" target="_blank" rel="noopener noreferrer">
-        <p><i class="ri-instagram-fill"></i></p>
+        <p class="text-2xl"><i class="ri-instagram-fill"></i></p>
     </a>
-    <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-spotify"></i></a>
+    <a href="https://www.tripadvisor.com/Attraction_Review-g1500185-d13329321-Reviews-Alluring_Tours-Katunayake_Negombo_Western_Province.html" class="inline-block">
+  
+    <div class="w-6 h-6 bg-white flex justify-center items-center rounded-full">
+    <img src="./assetes/images/tripadvisor.png" alt="Alluring Tours" class="w-4 h-4">
+    </div>
     
+</a>
             </div>
 </div>
             <!-- Center Section -->

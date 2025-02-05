@@ -369,9 +369,9 @@ if ($selectedInterface && isset($interfaces[$selectedInterface])) {
     $interface = $interfaces[$selectedInterface];
 ?>
 
-    <section class="bg-black text-white py-12 h-full">
+    <section class="bg-black text-white py-12 h-full ">
         
-        <div class="w-full flex container text-center">
+        <div class="w-full flex container text-center mt-8">
             <div class="w-1/2">
             <h1 class="text-xl md:ml-24 lg:text-[90px] font-extrabold uppercase outline-text flex-1 text-center lg:text-left">
                 <span class="outline-text lora-"><?php echo $interface['city']; ?></span>
