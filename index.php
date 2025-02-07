@@ -66,7 +66,7 @@
             </h1>
         </div>
 
-        <div class="relative lora- flex justify-center items-end mb-28  md:mb-0 md:mt-12">
+        <div class="relative lora- flex justify-center items-end mb-28  md:mb-0 mt-4">
             <h2 class="absolute inset-0 text-5xl md:text-[160px] font-extrabold opacity-50 text-[#B9C37B66] lora- uppercase tracking-wide">
                 Sri Lanka
             </h2>
@@ -83,14 +83,30 @@
                 </p>
             </div>
         </div>
-        <div class="w-full pt-4 flex justify-center text-center lora- mt-8">
+        <div class="w-full pt-4 flex justify-center space-x-4 lora- mt-8">
         <a href="https://www.tripadvisor.com/Attraction_Review-g1500185-d13329321-Reviews-Alluring_Tours-Katunayake_Negombo_Western_Province.html" class="inline-block">
-  <button class="bg-[#B9C37B6B] text-black text-xl border-2 border-[#B9C37B] font-bold italic md:px-20 px-6 py-2 rounded-full hover:bg-[#B9C37B] transition mx-auto lg:mx-0">
-    <div class="w-full flex space-x-4">
-    <p> Check Us on TripAdvisor</p>
+  <button class="bg-[#B9C37B6B] text-black text-xl border-2 border-[#B9C37B] font-bold italic p-4 rounded-full hover:bg-[#B9C37B] transition mx-auto lg:mx-0">
+    <div class="w-full">
     <div class="w-8 h-8 bg-white flex justify-center items-center rounded-full">
-    <img src="./assetes/images/tripadvisor.png" alt="Alluring Tours" class="w-6 h-6">
+    <img src="./assetes/images/tripadvisor.png" alt="Alluring Tours" class="w-8 h-8">
     </div>
+    </div>
+ 
+  </button>
+</a>
+<a href="https://www.routard.com/forum_message/4745771/recommendation_chauffeur_a_colombo.htm" class="inline-block">
+  <button class="bg-[#B9C37B6B] text-black text-xl border-2 border-[#B9C37B] font-bold italic p-3 rounded-full hover:bg-[#B9C37B] transition mx-auto lg:mx-0">
+    <div class="w-full">
+    
+    <img src="./assetes/images/bg2.png" alt="Alluring Tours" class="w-10 h-10">
+    </div>
+ 
+  </button>
+</a>
+<a href="https://www.losviajeros.com/foros.php?p=6301854#6301854" class="inline-block">
+  <button class="bg-[#B9C37B6B] text-black text-xl border-2 border-[#B9C37B] font-bold italic p-3 rounded-full hover:bg-[#B9C37B] transition mx-auto lg:mx-0">
+    <div class="w-full">
+    <img src="./assetes/images/bg5.png" alt="Alluring Tours" class="w-10 h-10">
     </div>
  
   </button>
