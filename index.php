@@ -263,7 +263,97 @@
     </div>
   </div>
 </div>
+<div class="w-full bg-black flex flex-col justify-center items-center pt-12">
+<h2 class="text-3xl md:text-5xl font-bold mb-4 text-[#B9C37B] lora-">GALLERY</h2>
+<div class="w-full flex flex-col justify-center items-center">
+<p class="text-lg md:text-xl lora- italic font-bold text-[#B9C37B]">Explore the breathtaking beauty, rich culture, </p>
+  <p class="text-lg md:text-xl lora- italic font-bold text-[#B9C37B]">and vibrant moments captured from across Sri Lanka.</p>
 
+</div>
+  
+
+<div class="w-full flex space-x-4 space-y-4 px-24 lora-">
+  
+<div class="w-1/4 h-full flex flex-col space-y-4">
+<div class="w-full h-[200px]">
+    <img src="./assetes/images/bg36.png" alt="Alluring Tours" class="h-[200px] w-full">
+
+    </div>
+<div class="w-full flex justify-center items-center border border-[#B9C37B] p-4 md:p-6 bg-[#B9C37B80] w-full">
+      <div class="w-full h-full flex items-start justify-center">
+        <h3 class="text-xl text-black">Travel isn’t about the destination, but the memories made along the way.</h3>
+      </div>
+      
+    </div>
+    <div class="w-full h-[300px]">
+    <img src="./assetes/images/bg39.png" alt="Alluring Tours" class="h-[300px] w-full">
+
+    </div>
+
+</div>
+<div class="w-3/4 h-full flex flex-col space-y-4">
+  <div class="w-full h-1/3 flex h-auto space-x-4">
+    <div class="w-1/2 h-[200px]">
+    <img src="./assetes/images/bg45.png" alt="Alluring Tours" class="h-[200px] w-full">
+
+    </div>
+<div class="w-1/4 flex h-[200px] justify-center items-center border border-[#B9C37B] p-4 md:p-6 bg-[#B9C37B80]">
+      <div class="w-full flex items-start justify-center">
+        <h3 class="text-xl text-black">Happiness is… a passport full of stamps and a heart full of memories.</h3>
+      </div>
+      
+    </div>
+    <div class="w-1/2 h-[200px]">
+    <img src="./assetes/images/bg44.png" alt="Alluring Tours" class="h-[200px] w-full">
+
+    </div>
+
+  </div>
+  <div class="w-full h-2/3 flex h-auto space-x-4">
+    <div class="w-1/4 flex flex-col h-[400px] space-y-4">
+    <img src="./assetes/images/bg41.png" alt="Alluring Tours" class="h-[300px] w-full">
+    <div class="w-full flex h-[100px] justify-center items-center border border-[#B9C37B] p-4 md:p-6 bg-[#B9C37B80]">
+      <div class="w-full flex items-start justify-center">
+        <h3 class="text-xl text-black">Collect memories, not things – explore Sri Lanka with us!</h3>
+      </div>
+      
+    </div>
+    </div>
+    <div class="w-3/4 flex flex-col h-[400px] space-y-4">
+      <div class="w-full flex space-x-4">
+      <div class="w-1/2 h-[200px]">
+    <img src="./assetes/images/bg40.png" alt="Alluring Tours" class="h-[200px] w-full">
+    </div> 
+    <div class="w-1/2 h-[200px]">
+    <img src="./assetes/images/bg38.png" alt="Alluring Tours" class="h-[200px] w-full">
+    </div> 
+      </div>
+    
+    <div class="w-full flex space-x-4">
+    <div class="w-full h-[200px]">
+    <img src="./assetes/images/bg56.png" alt="Alluring Tours" class="h-[200px] w-full">
+
+    </div>   
+    <div class="w-1/2 flex h-[200px] justify-center items-center border border-[#B9C37B] p-4 md:p-6 bg-[#B9C37B80]">
+      <div class="w-full flex items-start justify-center">
+        <h3 class="text-xl text-black">Let the beauty of Sri Lanka take your breath away and fill your soul with adventure.</h3>
+      </div>
+      
+    </div>
+    </div>
+    
+    </div>
+    
+
+
+  </div>
+  
+  
+</div>
+
+</div>
+
+</div>
 
 <div id="destinations">
   <?php include("./destinations.php"); ?>
